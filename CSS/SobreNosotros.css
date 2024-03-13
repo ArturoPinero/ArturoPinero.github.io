@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.naranja {
+    color: rgb(222, 145, 2);
+}
+
+.header {
+    background-color: #333030;
+    display: flow-root;
+}
+
+.logoImagen {
+    width: auto;
+    float: left;
+    padding-left: 2%;
+    height: 43px;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    padding: 8px; 
+    float: left;
+}
+
+.indice {
+    color: white; 
+    font-size: 18px;
+    padding: 15px; 
+    float: right;
+    padding-right: 4%;
+    display: flow-root;
+}
+
+.indice > a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.titulo{
+    border-bottom: solid black 2px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    padding: 25px;
+}
+
+.imagen {
+    background-image: url('../img/Tienda-1.webp');
+    background-size: cover;
+    background-position: center;
+    width: 750px;
+    height: 750px;
+    margin-top: 20px;
+    margin-left: 2%;
+    float: left;
+}
+
+.contenido {
+    margin-left: 50%;
+    margin-top: 60px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.naranja {
+    color: orange;
+}
+
+.logoImagen2 {
+    width: auto;
+    float: left;
+    height: 41px;
+}
+
+.logo2 {
+    font-size: 35px; 
+    float: left;
+}
+
+.textos {
+    box-sizing: border-box;
+    width: 48%;
+    text-align: justify;
+    float: right;
+    margin-top: 30px;
+    margin-right: 31px;
+    font-size: 21px;
+}
+
+.texto1 {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.redes {
+    box-sizing: border-box;
+    width: 15%;
+    float: left;
+    padding-top: 20px;
+    margin-left: 3.5%;
+}
+
+.redes > img{
+    height: 30px;
+}
+
+.redes2 {
+    padding-left: 10px;
+}

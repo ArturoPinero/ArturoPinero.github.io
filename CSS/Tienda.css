@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.naranja {
+    color: rgb(222, 145, 2);
+}
+
+.header {
+    background-color: #333030;
+    display: flow-root;
+}
+
+.logoImagen {
+    width: auto;
+    float: left;
+    padding-left: 2%;
+    height: 43px;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    padding: 8px; 
+    float: left;
+}
+
+.indice {
+    color: white; 
+    font-size: 18px;
+    padding: 15px; 
+    float: right;
+    padding-right: 4%;
+    display: flow-root;
+}
+
+.indice > a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.titulo{
+    border-bottom: solid black 2px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    padding: 25px;
+}
+
+.zapatos {
+    padding-top: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.zapatos1 {
+    box-sizing: border-box;
+    width: 20%;
+    display: inline-block;
+}
+
+.zapatos1 > img{
+    height: 275px;
+}
+
+.carrito {
+    color: white;
+    background-color:#181817;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.nPaginas {
+    margin-top: 50px;
+    margin-right: 160px;
+    float: right;
+    color: white;
+    box-sizing: border-box;
+    width: 50%;
+    text-align: center;
+    margin: 1%;
+}
+
+.pagina {
+    background-color: #181817;
+    float: right;
+    box-sizing: border-box;
+    width: 5%;
+    border-radius: 20px;
+}
+
+.pagina1 {
+    box-sizing: border-box;
+    width: 5%;
+    background-color: #181817;
+    float: right;
+    margin-right: 20px;
+    border-radius: 20px;
+    
+}

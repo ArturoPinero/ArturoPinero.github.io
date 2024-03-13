@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Contacto.css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <img src="../IMG/Logo.png" alt="Logo" class="logoImagen"/>
+            <h2 class="logo">ALL<span class="naranja">SHOES</span></h2>
+        </div>
+        <div>
+            <ul>
+                <li class="indice"><a href="../HTML/Contacto.html">CONTACTO</a></li>
+                <li class="indice"><a href="../HTML/Tienda.html">TIENDA</a></li>
+                <li class="indice"><a href="../HTML/Cursos.html">CURSOS</a></li>
+                <li class="indice"><a href="../HTML/SobreNosotros.html">SOBRE NOSOTROS</a></li>
+                <li class="indice"><a href="../HTML/Portada.html">INICIO</a></li>
+            </ul>
+        </div>
+    </div>
+        <div class="main">
+            <h1>CONTACTO</h1>
+        </div>
+        <div class="contenido">
+            <div class="cajaIzquierda">
+                <div class="texto">
+                    <h1>¿TIENES ALGUNA DUDA?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ipsam libero eos officia alias sed voluptates praesentium 
+                        saepe deserunt at totam aperiam odio iusto amet, repellendus a ipsa repellat! Rem.
+                    </p>
+                    <h2>E-mail:</h2>
+                    <p>info@allshoes.es</p>
+                    <h2>Redes sociales:</h2>
+                </div>
+                <div class="redes">
+                    <div class="twitter">
+                        <img src="../IMG/twitter-icon.png" alt="twitter">
+                    </div>
+                    <div class="whatsInsta">
+                        <img src="../IMG/whatsapp-logo.png" alt="whatsapp">
+                        <img src="../IMG/instagram-logo.png" alt="instagram">
+                    </div>
+                    <div class="teleFace">
+                        <img src="../IMG/telegram-icon.png" alt="telegram">
+                        <img src="../IMG/facebook-icon.png" alt="facebook">
+                    </div>
+                </div>
+            </div>
+            <div class="cajaDerecha">
+                <form>
+                    <div class="formulario">
+                        <input type="text" id="nombre" name="nombre" placeholder="NOMBRE">
+                    </div>
+                    <div class="formulario">
+                        <input type="email" id="correo" name="correo" placeholder="CORREO (CORREO@EMAIL.COM)">
+                    </div>
+                    <div class="formulario">
+                        <input type="tel" id="telefono" name="telefono" placeholder="TELÉFONO (+34 XXX XXX XXX)">
+                    </div>
+                    <div class="formulario">
+                        <input type="text" list="tema" placeholder="TEMA">
+                        <datalist id="tema">
+                            <option value="Consulta sobre productos"></option>
+                            <option value="Fallo en la página web"></option>
+                            <option value="Problemas con el pedido o la entrega"></option>
+                            <option value="Sugerencia o queja"></option>
+                        </datalist>
+                    </div>
+                    <div class="formulario">
+                        <textarea name="mensaje" id="Mensaje" cols="50" rows="9" placeholder="MENSAJE"></textarea>
+                    </div>
+                    <div class="check">
+                        <label for="condiciones">
+                            <input class="condiciones" type="checkbox" id="condiciones">
+                            Aceptar <a href="">condiciones</a> 
+                        </label>
+                    </div>
+                    <div class="boton">
+                        <button type="submit">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

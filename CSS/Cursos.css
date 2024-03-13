@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.naranja {
+    color: rgb(222, 145, 2);
+}
+
+.header {
+    background-color: #333030;
+    display: flow-root;
+}
+
+.logoImagen {
+    width: auto;
+    float: left;
+    padding-left: 2%;
+    height: 43px;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    padding: 8px; 
+    float: left;
+}
+
+.indice {
+    color: white; 
+    font-size: 18px;
+    padding: 15px; 
+    float: right;
+    padding-right: 4%;
+    display: flow-root;
+}
+
+.indice > a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.main{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+}
+
+h1{
+    color: black;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial;
+}
+
+.informacion{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 1%;
+    font-size: 22px;
+    text-align: justify;
+    padding-right: 2%;
+}
+
+.informacion1{
+    padding-bottom: 5%;
+}
+
+.Imagen1{
+    margin-left: 1%;
+    float: left;
+    width: 600px;
+    height: 300px;
+}
+
+.Texto1{
+    padding-left: 650px;
+    padding-top: 20px;
+}
+
+.Horas{
+    padding-bottom: 20px;
+}
+
+.leer1 {
+    background-color:rgb(196, 196, 184);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 40px;
+    box-sizing: border-box;
+    width: 10%;
+    padding: 10px;
+    font-weight: bolder;
+    float: right;
+}
+
+.informacion2{
+    padding-top: 3%;
+    text-align: left;
+    text-align: justify;
+    
+}
+
+.Texto2{
+    padding-top: 20px;
+    float: left;
+    margin-left: 1%;
+    width: 50%;
+}
+
+.Imagen2{
+    float: right;
+    width: 600px;
+    height: 300px;
+}
+
+.leer2{
+    background-color:rgb(196, 196, 184);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1%;
+    border-radius: 40px;
+    box-sizing: border-box;
+    width: 20%;
+    padding: 10px;
+    font-weight: bolder;
+    float: right;
+    margin-bottom: 1%;
+}
+
+button{
+    transition: 2s;
+    padding: 7px 40px;
+    background-color: rgb(196, 196, 184);
+    color: white;
+    border: none;
+    cursor: pointer;
+    float: right;
+    border-radius: 100px;
+    font-weight: bold;
+}

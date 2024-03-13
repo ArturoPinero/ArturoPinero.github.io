@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.naranja {
+    color: rgb(222, 145, 2);
+}
+
+.header {
+    background-color: #333030;
+    display: flow-root;
+}
+
+.logoImagen {
+    width: auto;
+    float: left;
+    padding-left: 2%;
+    height: 43px;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    padding: 8px; 
+    float: left;
+}
+
+.indice {
+    color: white; 
+    font-size: 18px;
+    padding: 15px; 
+    float: right;
+    padding-right: 4%;
+    display: flow-root;
+}
+
+.indice > a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.main {
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    padding: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main > h1 {
+    font-style: italic;
+    text-align: center;
+}
+
+.contenido {
+    display: flex;
+    margin: 10px;
+}
+
+.cajaIzquierda, .cajaDerecha {
+    flex: 1;
+    padding: 20px;
+}
+
+.cajaDerecha {
+    margin-left: 25px;
+}
+
+.cajaIzquierda {
+    margin-right: 25px;
+}
+
+.texto > h1 {
+    margin-bottom: 20px;
+}
+
+.texto > p:first-of-type {
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.texto > p:nth-of-type(2) {
+    margin-bottom: 20px;
+}
+
+.texto > p:nth-of-type(3) {
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.redes {
+    padding-bottom: 50px;
+    background-image: url(../IMG/Logo.png);
+    background-size: 90px 86px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.redes > div > img {
+    width: 25px;
+    height: 25px;
+}
+
+.twitter {
+    text-align: center;
+}
+
+.twitter > img {   
+    margin-top: 25px;
+}
+
+.whatsInsta {
+    text-align: center;
+}
+
+.whatsInsta > img {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 5px;
+}
+
+.teleFace {
+    text-align: center;
+}
+
+.teleFace > img {
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: 40px;
+}
+
+.formulario {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    background-color: white;
+    color: black;
+}
+
+.formulario > input:hover {
+    background-color: rgb(177, 177, 177);
+}
+
+textarea {
+    width: 100%;
+    border: solid 2px;
+    padding: 15px;
+    resize: none;
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.condiciones {
+    width: 5%;
+}
+
+.boton {
+    display: block;
+}
+
+button {
+    transition: 2s;
+    padding: 7px 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    float: right;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: rgb(182, 182, 182);
+    border: solid black 1px;
+}

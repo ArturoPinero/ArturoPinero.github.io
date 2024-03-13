@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.naranja {
+    color: rgb(222, 145, 2);
+}
+
+.header {
+    background-color: #333030;
+    display: flow-root;
+}
+
+.logoImagen {
+    width: auto;
+    float: left;
+    padding-left: 2%;
+    height: 43px;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    padding: 8px; 
+    float: left;
+}
+
+.indice {
+    color: white; 
+    font-size: 18px;
+    padding: 15px; 
+    float: right;
+    padding-right: 4%;
+    display: flow-root;
+}
+
+.indice > a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.portada {
+    background-image: url(/img/Carroussel.png);
+    background-position-y: 90%;
+    background-size: 100%;
+    width: 98%;
+    height: 440px;
+    margin-top: 10px;
+    margin-left: 1%;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 120px;
+    padding-left: 50px;
+    box-sizing:border-box;
+    width: 10%;
+}
+
+.main{
+    margin-top: 10px;
+    border-top: solid black 2px;
+}
+
+.contenido {
+    box-sizing: border-box;
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size: 22px;
+    text-align: justify;
+    float: left;
+}
+
+.compra {
+    background-color:#181817;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 40px;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+button{
+    transition: 2s;
+    padding: 7px 40px;
+    background-color: rgb(196, 196, 184);
+    color: white;
+    border: none;
+    cursor: pointer;
+    float: right;
+    border-radius: 100px;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.productos {
+   padding-right: 1%; 
+   padding-top: 1%;
+   float: right;
+   margin: 0;
+   
+}
+
+.Imagen1 {
+    padding-right: 22px;
+}
